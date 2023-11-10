@@ -1,17 +1,10 @@
-# feladat_014
-"""
-Kérjük be a vezeték és keresztnevünket
-Írassuk ki eljárás segítségével a nevünket.
-pl:
-Be: "Kérem a vezetékneved: Takács"
-Be: "Kérem a keresztneved: István"
-Ki: "A nevem: Takács István"
-"""
+# nevem_feladat_014
+# while ciklus I.
+# while magyarul azt jelenti: amíg
 
-vnev = (input("Kérem a vezetékneved "))
-knev = (input("Kérem a keresztneved "))
+szam = 1
+while szam <= 1000:
+    print(szam)
+    szam = szam + 1
 
-def neved(vnev,knev):
-    print(f"A neved {vnev} {knev}")
-
-neved(vnev,knev)
+print(f"A program vége")
